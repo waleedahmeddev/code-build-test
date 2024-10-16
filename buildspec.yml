@@ -14,3 +14,4 @@ phases:
     commands:
       - echo post_build
       - echo $MY_ENV
+      - sleep 60
