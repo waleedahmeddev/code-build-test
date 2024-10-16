@@ -5,9 +5,12 @@ phases:
   pre_build:
     commands:
       - echo pre_build
+      - echo $MY_ENV
   build:
     commands:
       - echo build
+      - echo $MY_ENV
   post_build:
     commands:
       - echo post_build
+      - echo $MY_ENV
